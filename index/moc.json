@@ -1,0 +1,1862 @@
+{
+  "topics": {
+    "性能优化": {
+      "notes": [
+        "C++高性能计算优化实战心得.md",
+        "CUDA蒙特卡洛入门：GPU并行化抽卡模拟.md",
+        "Excel处理大数据为何卡顿及解决方案.md",
+        "GPU架构入门：从SIMD到SIMT的执行模型.md",
+        "Linux Slab 内存池设计与实现.md",
+        "Linux 内核物理内存管理全景.md",
+        "zsh 为什么被称为 shell 中的极品.md",
+        "一台主机TCP连接数量的真实限制.md",
+        "位运算优化俄罗斯方块实现.md",
+        "内存为何不是二维寻址：DRAM 的多层抽象.md",
+        "增加内存为何无法提升CPU性能——Windows内存压缩的隐性开销.md",
+        "性能优化.md",
+        "数据密集型应用系统设计 读书推荐.md",
+        "数据规模驱动的后端技术能力分层.md",
+        "线程与进程的区别：火车与车厢的比喻.md",
+        "让人惊叹的优雅代码：算法、数据结构与代码高尔夫.md",
+        "链表已死？现代体系下的链表兴衰.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "内存管理",
+        "计算机体系结构"
+      ],
+      "note_count": 17
+    },
+    "计算机基础": {
+      "notes": [
+        "GPU架构入门：从SIMD到SIMT的执行模型.md",
+        "Linux 内核物理内存管理全景.md",
+        "中国计算机基础学科自学资源地图.md",
+        "中国计算机教育现状与CS核心课程自学路径.md",
+        "中断的本质：硬件实现的表跳转.md",
+        "内存为何不是二维寻址：DRAM 的多层抽象.md",
+        "增加内存为何无法提升CPU性能——Windows内存压缩的隐性开销.md",
+        "数据密集型应用系统设计 读书推荐.md",
+        "数据规模驱动的后端技术能力分层.md",
+        "新手使用GitHub与计算机基础学习路线.md",
+        "自学编程的失败与重建：从985科班到B站网课的程序员之路.md",
+        "计算机科学自学路线与经典书籍.md",
+        "让人惊叹的优雅代码：算法、数据结构与代码高尔夫.md",
+        "设计模式的语言依赖性：GoF 模式何时真正有用.md",
+        "负数在计算机中的二进制表示 从 0 减 X 说起.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "学习路线",
+        "内存管理"
+      ],
+      "note_count": 15
+    },
+    "学习路线": {
+      "notes": [
+        "CUDA 系统学习路线：从入门到 MMA 版 FlashAttention.md",
+        "中国计算机基础学科自学资源地图.md",
+        "国内技术博客生态与 SEO 可发现性问题.md",
+        "新手使用GitHub与计算机基础学习路线.md",
+        "用 GitHub Codespaces 零成本获取云端编程环境.md",
+        "自学编程的失败与重建：从985科班到B站网课的程序员之路.md",
+        "计算机科学自学路线与经典书籍.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "操作系统",
+        "数据结构与算法"
+      ],
+      "note_count": 7
+    },
+    "操作系统": {
+      "notes": [
+        "Android逆向工程师的私活图鉴.md",
+        "中国计算机基础学科自学资源地图.md",
+        "线程与进程的区别：火车与车厢的比喻.md",
+        "计算机科学自学路线与经典书籍.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "学习路线",
+        "数据结构与算法"
+      ],
+      "note_count": 4
+    },
+    "命令行工具": {
+      "notes": [
+        "Ubuntu 进阶技巧：进程管理与系统调试实战.md",
+        "thefuck 终端命令自动纠错工具.md",
+        "zsh 为什么被称为 shell 中的极品.md",
+        "用 GitHub Codespaces 零成本获取云端编程环境.md"
+      ],
+      "subtopics": [
+        "GitHub",
+        "开源项目",
+        "开发效率"
+      ],
+      "note_count": 4
+    },
+    "GitHub": {
+      "notes": [
+        "thefuck 终端命令自动纠错工具.md",
+        "大一计算机新生 GitHub 使用入门指南.md",
+        "新手使用GitHub与计算机基础学习路线.md",
+        "用 GitHub Codespaces 零成本获取云端编程环境.md"
+      ],
+      "subtopics": [
+        "命令行工具",
+        "开源项目",
+        "学习路线"
+      ],
+      "note_count": 4
+    },
+    "内存管理": {
+      "notes": [
+        "Linux Slab 内存池设计与实现.md",
+        "Linux 内核物理内存管理全景.md",
+        "增加内存为何无法提升CPU性能——Windows内存压缩的隐性开销.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "计算机基础",
+        "Linux 内核"
+      ],
+      "note_count": 3
+    },
+    "软件工程": {
+      "notes": [
+        "AI 不是银弹：Brooks 框架下的本质与偶然复杂性.md",
+        "The Missing Semester 程序员实操工具课.md"
+      ],
+      "subtopics": [
+        "AI编程",
+        "人月神话",
+        "复杂度"
+      ],
+      "note_count": 2
+    },
+    "高性能计算": {
+      "notes": [
+        "C++高性能计算优化实战心得.md",
+        "CUDA 系统学习路线：从入门到 MMA 版 FlashAttention.md"
+      ],
+      "subtopics": [
+        "C++",
+        "性能优化",
+        "数学库"
+      ],
+      "note_count": 2
+    },
+    "CUDA": {
+      "notes": [
+        "CUDA 系统学习路线：从入门到 MMA 版 FlashAttention.md",
+        "CUDA蒙特卡洛入门：GPU并行化抽卡模拟.md"
+      ],
+      "subtopics": [
+        "高性能计算",
+        "PyTorch",
+        "Tensor Cores"
+      ],
+      "note_count": 2
+    },
+    "数据库": {
+      "notes": [
+        "Excel处理大数据为何卡顿及解决方案.md",
+        "中国计算机基础学科自学资源地图.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "Excel",
+        "数据处理"
+      ],
+      "note_count": 2
+    },
+    "计算机体系结构": {
+      "notes": [
+        "GPU架构入门：从SIMD到SIMT的执行模型.md",
+        "链表已死？现代体系下的链表兴衰.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "计算机基础",
+        "GPU架构"
+      ],
+      "note_count": 2
+    },
+    "Linux内核": {
+      "notes": [
+        "Linux 内核物理内存管理全景.md",
+        "一台主机TCP连接数量的真实限制.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "计算机基础",
+        "内存管理"
+      ],
+      "note_count": 2
+    },
+    "网络安全": {
+      "notes": [
+        "Linux命令记忆方法与分类速查索引.md",
+        "网络游戏外挂的本质：服务器验证的攻防博弈.md"
+      ],
+      "subtopics": [
+        "Linux命令",
+        "学习方法",
+        "Kali"
+      ],
+      "note_count": 2
+    },
+    "计算机科学": {
+      "notes": [
+        "The Missing Semester 程序员实操工具课.md",
+        "中国计算机教育现状与CS核心课程自学路径.md"
+      ],
+      "subtopics": [
+        "软件工程",
+        "Shell脚本",
+        "Vim"
+      ],
+      "note_count": 2
+    },
+    "开发效率": {
+      "notes": [
+        "The Missing Semester 程序员实操工具课.md",
+        "thefuck 终端命令自动纠错工具.md"
+      ],
+      "subtopics": [
+        "计算机科学",
+        "软件工程",
+        "Shell脚本"
+      ],
+      "note_count": 2
+    },
+    "开源项目": {
+      "notes": [
+        "thefuck 终端命令自动纠错工具.md",
+        "新手使用GitHub与计算机基础学习路线.md"
+      ],
+      "subtopics": [
+        "GitHub",
+        "命令行工具",
+        "开发效率"
+      ],
+      "note_count": 2
+    },
+    "进程管理": {
+      "notes": [
+        "Ubuntu 进阶技巧：进程管理与系统调试实战.md",
+        "线程与进程的区别：火车与车厢的比喻.md"
+      ],
+      "subtopics": [
+        "Linux",
+        "Ubuntu",
+        "命令行工具"
+      ],
+      "note_count": 2
+    },
+    "开发工具": {
+      "notes": [
+        "zsh 为什么被称为 shell 中的极品.md",
+        "大一计算机新生 GitHub 使用入门指南.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "zsh",
+        "shell"
+      ],
+      "note_count": 2
+    },
+    "数据结构与算法": {
+      "notes": [
+        "中国计算机基础学科自学资源地图.md",
+        "计算机科学自学路线与经典书籍.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "学习路线",
+        "操作系统"
+      ],
+      "note_count": 2
+    },
+    "嵌入式开发": {
+      "notes": [
+        "从 Sleep 到皮秒精度：周期性函数执行精度的极限优化.md",
+        "位运算优化俄罗斯方块实现.md"
+      ],
+      "subtopics": [
+        "FPGA",
+        "定时精度",
+        "实时系统"
+      ],
+      "note_count": 2
+    },
+    "后端开发": {
+      "notes": [
+        "数据规模驱动的后端技术能力分层.md",
+        "米哈游算法笔试与面试难度解析.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "性能优化",
+        "数据架构"
+      ],
+      "note_count": 2
+    },
+    "算法": {
+      "notes": [
+        "新手使用GitHub与计算机基础学习路线.md",
+        "让人惊叹的优雅代码：算法、数据结构与代码高尔夫.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "开源项目",
+        "GitHub"
+      ],
+      "note_count": 2
+    },
+    "数据结构": {
+      "notes": [
+        "让人惊叹的优雅代码：算法、数据结构与代码高尔夫.md",
+        "链表已死？现代体系下的链表兴衰.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "计算机基础",
+        "算法"
+      ],
+      "note_count": 2
+    },
+    "AI编程": {
+      "notes": [
+        "AI 不是银弹：Brooks 框架下的本质与偶然复杂性.md"
+      ],
+      "subtopics": [
+        "软件工程",
+        "人月神话",
+        "复杂度"
+      ],
+      "note_count": 1
+    },
+    "人月神话": {
+      "notes": [
+        "AI 不是银弹：Brooks 框架下的本质与偶然复杂性.md"
+      ],
+      "subtopics": [
+        "软件工程",
+        "AI编程",
+        "复杂度"
+      ],
+      "note_count": 1
+    },
+    "复杂度": {
+      "notes": [
+        "AI 不是银弹：Brooks 框架下的本质与偶然复杂性.md"
+      ],
+      "subtopics": [
+        "软件工程",
+        "AI编程",
+        "人月神话"
+      ],
+      "note_count": 1
+    },
+    "产品管理": {
+      "notes": [
+        "AI 不是银弹：Brooks 框架下的本质与偶然复杂性.md"
+      ],
+      "subtopics": [
+        "软件工程",
+        "AI编程",
+        "人月神话"
+      ],
+      "note_count": 1
+    },
+    "Android逆向": {
+      "notes": [
+        "Android逆向工程师的私活图鉴.md"
+      ],
+      "subtopics": [
+        "逆向工程",
+        "Hook框架",
+        "操作系统"
+      ],
+      "note_count": 1
+    },
+    "逆向工程": {
+      "notes": [
+        "Android逆向工程师的私活图鉴.md"
+      ],
+      "subtopics": [
+        "Android逆向",
+        "Hook框架",
+        "操作系统"
+      ],
+      "note_count": 1
+    },
+    "Hook框架": {
+      "notes": [
+        "Android逆向工程师的私活图鉴.md"
+      ],
+      "subtopics": [
+        "Android逆向",
+        "逆向工程",
+        "操作系统"
+      ],
+      "note_count": 1
+    },
+    "副业变现": {
+      "notes": [
+        "Android逆向工程师的私活图鉴.md"
+      ],
+      "subtopics": [
+        "Android逆向",
+        "逆向工程",
+        "Hook框架"
+      ],
+      "note_count": 1
+    },
+    "C++": {
+      "notes": [
+        "C++高性能计算优化实战心得.md"
+      ],
+      "subtopics": [
+        "高性能计算",
+        "性能优化",
+        "数学库"
+      ],
+      "note_count": 1
+    },
+    "数学库": {
+      "notes": [
+        "C++高性能计算优化实战心得.md"
+      ],
+      "subtopics": [
+        "高性能计算",
+        "C++",
+        "性能优化"
+      ],
+      "note_count": 1
+    },
+    "查表插值": {
+      "notes": [
+        "C++高性能计算优化实战心得.md"
+      ],
+      "subtopics": [
+        "高性能计算",
+        "C++",
+        "性能优化"
+      ],
+      "note_count": 1
+    },
+    "有损计算": {
+      "notes": [
+        "C++高性能计算优化实战心得.md"
+      ],
+      "subtopics": [
+        "高性能计算",
+        "C++",
+        "性能优化"
+      ],
+      "note_count": 1
+    },
+    "PyTorch": {
+      "notes": [
+        "CUDA 系统学习路线：从入门到 MMA 版 FlashAttention.md"
+      ],
+      "subtopics": [
+        "CUDA",
+        "高性能计算",
+        "Tensor Cores"
+      ],
+      "note_count": 1
+    },
+    "Tensor Cores": {
+      "notes": [
+        "CUDA 系统学习路线：从入门到 MMA 版 FlashAttention.md"
+      ],
+      "subtopics": [
+        "CUDA",
+        "高性能计算",
+        "PyTorch"
+      ],
+      "note_count": 1
+    },
+    "FlashAttention": {
+      "notes": [
+        "CUDA 系统学习路线：从入门到 MMA 版 FlashAttention.md"
+      ],
+      "subtopics": [
+        "CUDA",
+        "高性能计算",
+        "PyTorch"
+      ],
+      "note_count": 1
+    },
+    "GPU并行计算": {
+      "notes": [
+        "CUDA蒙特卡洛入门：GPU并行化抽卡模拟.md"
+      ],
+      "subtopics": [
+        "CUDA",
+        "蒙特卡洛模拟",
+        "PCG32"
+      ],
+      "note_count": 1
+    },
+    "蒙特卡洛模拟": {
+      "notes": [
+        "CUDA蒙特卡洛入门：GPU并行化抽卡模拟.md"
+      ],
+      "subtopics": [
+        "CUDA",
+        "GPU并行计算",
+        "PCG32"
+      ],
+      "note_count": 1
+    },
+    "PCG32": {
+      "notes": [
+        "CUDA蒙特卡洛入门：GPU并行化抽卡模拟.md"
+      ],
+      "subtopics": [
+        "CUDA",
+        "GPU并行计算",
+        "蒙特卡洛模拟"
+      ],
+      "note_count": 1
+    },
+    "Excel": {
+      "notes": [
+        "Excel处理大数据为何卡顿及解决方案.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "数据库",
+        "数据处理"
+      ],
+      "note_count": 1
+    },
+    "数据处理": {
+      "notes": [
+        "Excel处理大数据为何卡顿及解决方案.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "Excel",
+        "数据库"
+      ],
+      "note_count": 1
+    },
+    "GPU架构": {
+      "notes": [
+        "GPU架构入门：从SIMD到SIMT的执行模型.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "性能优化",
+        "计算机体系结构"
+      ],
+      "note_count": 1
+    },
+    "SIMT": {
+      "notes": [
+        "GPU架构入门：从SIMD到SIMT的执行模型.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "性能优化",
+        "GPU架构"
+      ],
+      "note_count": 1
+    },
+    "Linux 内核": {
+      "notes": [
+        "Linux Slab 内存池设计与实现.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "内存管理",
+        "slab"
+      ],
+      "note_count": 1
+    },
+    "slab": {
+      "notes": [
+        "Linux Slab 内存池设计与实现.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "内存管理",
+        "Linux 内核"
+      ],
+      "note_count": 1
+    },
+    "对象池": {
+      "notes": [
+        "Linux Slab 内存池设计与实现.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "内存管理",
+        "Linux 内核"
+      ],
+      "note_count": 1
+    },
+    "NUMA架构": {
+      "notes": [
+        "Linux 内核物理内存管理全景.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "Linux内核",
+        "内存管理"
+      ],
+      "note_count": 1
+    },
+    "Linux命令": {
+      "notes": [
+        "Linux命令记忆方法与分类速查索引.md"
+      ],
+      "subtopics": [
+        "学习方法",
+        "Kali",
+        "网络安全"
+      ],
+      "note_count": 1
+    },
+    "学习方法": {
+      "notes": [
+        "Linux命令记忆方法与分类速查索引.md"
+      ],
+      "subtopics": [
+        "Linux命令",
+        "Kali",
+        "网络安全"
+      ],
+      "note_count": 1
+    },
+    "Kali": {
+      "notes": [
+        "Linux命令记忆方法与分类速查索引.md"
+      ],
+      "subtopics": [
+        "Linux命令",
+        "学习方法",
+        "网络安全"
+      ],
+      "note_count": 1
+    },
+    "命令速查": {
+      "notes": [
+        "Linux命令记忆方法与分类速查索引.md"
+      ],
+      "subtopics": [
+        "Linux命令",
+        "学习方法",
+        "Kali"
+      ],
+      "note_count": 1
+    },
+    "渗透测试": {
+      "notes": [
+        "Linux命令记忆方法与分类速查索引.md"
+      ],
+      "subtopics": [
+        "Linux命令",
+        "学习方法",
+        "Kali"
+      ],
+      "note_count": 1
+    },
+    "Shell脚本": {
+      "notes": [
+        "The Missing Semester 程序员实操工具课.md"
+      ],
+      "subtopics": [
+        "计算机科学",
+        "软件工程",
+        "Vim"
+      ],
+      "note_count": 1
+    },
+    "Vim": {
+      "notes": [
+        "The Missing Semester 程序员实操工具课.md"
+      ],
+      "subtopics": [
+        "计算机科学",
+        "软件工程",
+        "Shell脚本"
+      ],
+      "note_count": 1
+    },
+    "Linux": {
+      "notes": [
+        "Ubuntu 进阶技巧：进程管理与系统调试实战.md"
+      ],
+      "subtopics": [
+        "Ubuntu",
+        "命令行工具",
+        "系统调试"
+      ],
+      "note_count": 1
+    },
+    "Ubuntu": {
+      "notes": [
+        "Ubuntu 进阶技巧：进程管理与系统调试实战.md"
+      ],
+      "subtopics": [
+        "Linux",
+        "命令行工具",
+        "系统调试"
+      ],
+      "note_count": 1
+    },
+    "系统调试": {
+      "notes": [
+        "Ubuntu 进阶技巧：进程管理与系统调试实战.md"
+      ],
+      "subtopics": [
+        "Linux",
+        "Ubuntu",
+        "命令行工具"
+      ],
+      "note_count": 1
+    },
+    "后端运维": {
+      "notes": [
+        "Ubuntu 进阶技巧：进程管理与系统调试实战.md"
+      ],
+      "subtopics": [
+        "Linux",
+        "Ubuntu",
+        "命令行工具"
+      ],
+      "note_count": 1
+    },
+    "zsh": {
+      "notes": [
+        "zsh 为什么被称为 shell 中的极品.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "shell",
+        "命令行工具"
+      ],
+      "note_count": 1
+    },
+    "shell": {
+      "notes": [
+        "zsh 为什么被称为 shell 中的极品.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "zsh",
+        "命令行工具"
+      ],
+      "note_count": 1
+    },
+    "TCP": {
+      "notes": [
+        "一台主机TCP连接数量的真实限制.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "Linux内核",
+        "IO多路复用"
+      ],
+      "note_count": 1
+    },
+    "IO多路复用": {
+      "notes": [
+        "一台主机TCP连接数量的真实限制.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "TCP",
+        "Linux内核"
+      ],
+      "note_count": 1
+    },
+    "计算机网络": {
+      "notes": [
+        "中国计算机基础学科自学资源地图.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "学习路线",
+        "操作系统"
+      ],
+      "note_count": 1
+    },
+    "CS教育": {
+      "notes": [
+        "中国计算机教育现状与CS核心课程自学路径.md"
+      ],
+      "subtopics": [
+        "计算机科学",
+        "自学路径",
+        "公开课"
+      ],
+      "note_count": 1
+    },
+    "自学路径": {
+      "notes": [
+        "中国计算机教育现状与CS核心课程自学路径.md"
+      ],
+      "subtopics": [
+        "计算机科学",
+        "CS教育",
+        "公开课"
+      ],
+      "note_count": 1
+    },
+    "公开课": {
+      "notes": [
+        "中国计算机教育现状与CS核心课程自学路径.md"
+      ],
+      "subtopics": [
+        "计算机科学",
+        "CS教育",
+        "自学路径"
+      ],
+      "note_count": 1
+    },
+    "学习资源": {
+      "notes": [
+        "中国计算机教育现状与CS核心课程自学路径.md"
+      ],
+      "subtopics": [
+        "计算机科学",
+        "CS教育",
+        "自学路径"
+      ],
+      "note_count": 1
+    },
+    "中断机制": {
+      "notes": [
+        "中断的本质：硬件实现的表跳转.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "CPU架构",
+        "硬件原理"
+      ],
+      "note_count": 1
+    },
+    "CPU架构": {
+      "notes": [
+        "中断的本质：硬件实现的表跳转.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "中断机制",
+        "硬件原理"
+      ],
+      "note_count": 1
+    },
+    "硬件原理": {
+      "notes": [
+        "中断的本质：硬件实现的表跳转.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "中断机制",
+        "CPU架构"
+      ],
+      "note_count": 1
+    },
+    "FPGA": {
+      "notes": [
+        "从 Sleep 到皮秒精度：周期性函数执行精度的极限优化.md"
+      ],
+      "subtopics": [
+        "嵌入式开发",
+        "定时精度",
+        "实时系统"
+      ],
+      "note_count": 1
+    },
+    "定时精度": {
+      "notes": [
+        "从 Sleep 到皮秒精度：周期性函数执行精度的极限优化.md"
+      ],
+      "subtopics": [
+        "嵌入式开发",
+        "FPGA",
+        "实时系统"
+      ],
+      "note_count": 1
+    },
+    "实时系统": {
+      "notes": [
+        "从 Sleep 到皮秒精度：周期性函数执行精度的极限优化.md"
+      ],
+      "subtopics": [
+        "嵌入式开发",
+        "FPGA",
+        "定时精度"
+      ],
+      "note_count": 1
+    },
+    "时钟驯服": {
+      "notes": [
+        "从 Sleep 到皮秒精度：周期性函数执行精度的极限优化.md"
+      ],
+      "subtopics": [
+        "嵌入式开发",
+        "FPGA",
+        "定时精度"
+      ],
+      "note_count": 1
+    },
+    "C-Cpp": {
+      "notes": [
+        "从 Sleep 到皮秒精度：周期性函数执行精度的极限优化.md"
+      ],
+      "subtopics": [
+        "嵌入式开发",
+        "FPGA",
+        "定时精度"
+      ],
+      "note_count": 1
+    },
+    "计算机系统": {
+      "notes": [
+        "从电路到C语言的计算机系统入门书单.md"
+      ],
+      "subtopics": [
+        "书单",
+        "nand2tetris",
+        "底层原理"
+      ],
+      "note_count": 1
+    },
+    "书单": {
+      "notes": [
+        "从电路到C语言的计算机系统入门书单.md"
+      ],
+      "subtopics": [
+        "计算机系统",
+        "nand2tetris",
+        "底层原理"
+      ],
+      "note_count": 1
+    },
+    "nand2tetris": {
+      "notes": [
+        "从电路到C语言的计算机系统入门书单.md"
+      ],
+      "subtopics": [
+        "计算机系统",
+        "书单",
+        "底层原理"
+      ],
+      "note_count": 1
+    },
+    "底层原理": {
+      "notes": [
+        "从电路到C语言的计算机系统入门书单.md"
+      ],
+      "subtopics": [
+        "计算机系统",
+        "书单",
+        "nand2tetris"
+      ],
+      "note_count": 1
+    },
+    "学习路径": {
+      "notes": [
+        "从电路到C语言的计算机系统入门书单.md"
+      ],
+      "subtopics": [
+        "计算机系统",
+        "书单",
+        "nand2tetris"
+      ],
+      "note_count": 1
+    },
+    "软硬件": {
+      "notes": [
+        "从电路到C语言的计算机系统入门书单.md"
+      ],
+      "subtopics": [
+        "计算机系统",
+        "书单",
+        "nand2tetris"
+      ],
+      "note_count": 1
+    },
+    "位运算": {
+      "notes": [
+        "位运算优化俄罗斯方块实现.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "俄罗斯方块",
+        "嵌入式开发"
+      ],
+      "note_count": 1
+    },
+    "俄罗斯方块": {
+      "notes": [
+        "位运算优化俄罗斯方块实现.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "位运算",
+        "嵌入式开发"
+      ],
+      "note_count": 1
+    },
+    "游戏开发": {
+      "notes": [
+        "位运算优化俄罗斯方块实现.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "位运算",
+        "俄罗斯方块"
+      ],
+      "note_count": 1
+    },
+    "DRAM": {
+      "notes": [
+        "内存为何不是二维寻址：DRAM 的多层抽象.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "计算机基础",
+        "内存架构"
+      ],
+      "note_count": 1
+    },
+    "内存架构": {
+      "notes": [
+        "内存为何不是二维寻址：DRAM 的多层抽象.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "计算机基础",
+        "DRAM"
+      ],
+      "note_count": 1
+    },
+    "硬件抽象": {
+      "notes": [
+        "内存为何不是二维寻址：DRAM 的多层抽象.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "计算机基础",
+        "DRAM"
+      ],
+      "note_count": 1
+    },
+    "Userscript": {
+      "notes": [
+        "四平台关键词屏蔽器 Userscript 解析.md"
+      ],
+      "subtopics": [
+        "信息过滤",
+        "工具脚本",
+        "注意力管理"
+      ],
+      "note_count": 1
+    },
+    "信息过滤": {
+      "notes": [
+        "四平台关键词屏蔽器 Userscript 解析.md"
+      ],
+      "subtopics": [
+        "Userscript",
+        "工具脚本",
+        "注意力管理"
+      ],
+      "note_count": 1
+    },
+    "工具脚本": {
+      "notes": [
+        "四平台关键词屏蔽器 Userscript 解析.md"
+      ],
+      "subtopics": [
+        "Userscript",
+        "信息过滤",
+        "注意力管理"
+      ],
+      "note_count": 1
+    },
+    "注意力管理": {
+      "notes": [
+        "四平台关键词屏蔽器 Userscript 解析.md"
+      ],
+      "subtopics": [
+        "Userscript",
+        "信息过滤",
+        "工具脚本"
+      ],
+      "note_count": 1
+    },
+    "内容农场": {
+      "notes": [
+        "四平台关键词屏蔽器 Userscript 解析.md"
+      ],
+      "subtopics": [
+        "Userscript",
+        "信息过滤",
+        "工具脚本"
+      ],
+      "note_count": 1
+    },
+    "知乎": {
+      "notes": [
+        "四平台关键词屏蔽器 Userscript 解析.md"
+      ],
+      "subtopics": [
+        "Userscript",
+        "信息过滤",
+        "工具脚本"
+      ],
+      "note_count": 1
+    },
+    "技术博客": {
+      "notes": [
+        "国内技术博客生态与 SEO 可发现性问题.md"
+      ],
+      "subtopics": [
+        "SEO",
+        "学习路线",
+        "程序员社区"
+      ],
+      "note_count": 1
+    },
+    "SEO": {
+      "notes": [
+        "国内技术博客生态与 SEO 可发现性问题.md"
+      ],
+      "subtopics": [
+        "技术博客",
+        "学习路线",
+        "程序员社区"
+      ],
+      "note_count": 1
+    },
+    "程序员社区": {
+      "notes": [
+        "国内技术博客生态与 SEO 可发现性问题.md"
+      ],
+      "subtopics": [
+        "技术博客",
+        "SEO",
+        "学习路线"
+      ],
+      "note_count": 1
+    },
+    "知识管理": {
+      "notes": [
+        "国内技术博客生态与 SEO 可发现性问题.md"
+      ],
+      "subtopics": [
+        "技术博客",
+        "SEO",
+        "学习路线"
+      ],
+      "note_count": 1
+    },
+    "Windows": {
+      "notes": [
+        "增加内存为何无法提升CPU性能——Windows内存压缩的隐性开销.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "计算机基础",
+        "内存管理"
+      ],
+      "note_count": 1
+    },
+    "GitHub入门": {
+      "notes": [
+        "大一计算机新生 GitHub 使用入门指南.md"
+      ],
+      "subtopics": [
+        "GitHub",
+        "开源",
+        "开发工具"
+      ],
+      "note_count": 1
+    },
+    "开源": {
+      "notes": [
+        "大一计算机新生 GitHub 使用入门指南.md"
+      ],
+      "subtopics": [
+        "GitHub",
+        "GitHub入门",
+        "开发工具"
+      ],
+      "note_count": 1
+    },
+    "计算机新生": {
+      "notes": [
+        "大一计算机新生 GitHub 使用入门指南.md"
+      ],
+      "subtopics": [
+        "GitHub",
+        "GitHub入门",
+        "开源"
+      ],
+      "note_count": 1
+    },
+    "教程": {
+      "notes": [
+        "大一计算机新生 GitHub 使用入门指南.md"
+      ],
+      "subtopics": [
+        "GitHub",
+        "GitHub入门",
+        "开源"
+      ],
+      "note_count": 1
+    },
+    "AI共生": {
+      "notes": [
+        "影响力-职责范围矩阵与AI共生职业发展.md"
+      ],
+      "subtopics": [
+        "职业发展",
+        "影响力矩阵",
+        "职业规划"
+      ],
+      "note_count": 1
+    },
+    "职业发展": {
+      "notes": [
+        "影响力-职责范围矩阵与AI共生职业发展.md"
+      ],
+      "subtopics": [
+        "AI共生",
+        "影响力矩阵",
+        "职业规划"
+      ],
+      "note_count": 1
+    },
+    "影响力矩阵": {
+      "notes": [
+        "影响力-职责范围矩阵与AI共生职业发展.md"
+      ],
+      "subtopics": [
+        "AI共生",
+        "职业发展",
+        "职业规划"
+      ],
+      "note_count": 1
+    },
+    "职业规划": {
+      "notes": [
+        "影响力-职责范围矩阵与AI共生职业发展.md"
+      ],
+      "subtopics": [
+        "AI共生",
+        "职业发展",
+        "影响力矩阵"
+      ],
+      "note_count": 1
+    },
+    "数据压缩": {
+      "notes": [
+        "振动信号多级压缩：从LZ77到频域预测的工程实践.md"
+      ],
+      "subtopics": [
+        "信号处理",
+        "振动信号",
+        "嵌入式系统"
+      ],
+      "note_count": 1
+    },
+    "信号处理": {
+      "notes": [
+        "振动信号多级压缩：从LZ77到频域预测的工程实践.md"
+      ],
+      "subtopics": [
+        "数据压缩",
+        "振动信号",
+        "嵌入式系统"
+      ],
+      "note_count": 1
+    },
+    "振动信号": {
+      "notes": [
+        "振动信号多级压缩：从LZ77到频域预测的工程实践.md"
+      ],
+      "subtopics": [
+        "数据压缩",
+        "信号处理",
+        "嵌入式系统"
+      ],
+      "note_count": 1
+    },
+    "嵌入式系统": {
+      "notes": [
+        "振动信号多级压缩：从LZ77到频域预测的工程实践.md"
+      ],
+      "subtopics": [
+        "数据压缩",
+        "信号处理",
+        "振动信号"
+      ],
+      "note_count": 1
+    },
+    "物联网": {
+      "notes": [
+        "振动信号多级压缩：从LZ77到频域预测的工程实践.md"
+      ],
+      "subtopics": [
+        "数据压缩",
+        "信号处理",
+        "振动信号"
+      ],
+      "note_count": 1
+    },
+    "压缩算法": {
+      "notes": [
+        "振动信号多级压缩：从LZ77到频域预测的工程实践.md"
+      ],
+      "subtopics": [
+        "数据压缩",
+        "信号处理",
+        "振动信号"
+      ],
+      "note_count": 1
+    },
+    "分布式系统": {
+      "notes": [
+        "数据密集型应用系统设计 读书推荐.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "性能优化",
+        "数据密集型"
+      ],
+      "note_count": 1
+    },
+    "数据密集型": {
+      "notes": [
+        "数据密集型应用系统设计 读书推荐.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "性能优化",
+        "分布式系统"
+      ],
+      "note_count": 1
+    },
+    "系统设计": {
+      "notes": [
+        "数据密集型应用系统设计 读书推荐.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "性能优化",
+        "分布式系统"
+      ],
+      "note_count": 1
+    },
+    "读书笔记": {
+      "notes": [
+        "数据密集型应用系统设计 读书推荐.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "性能优化",
+        "分布式系统"
+      ],
+      "note_count": 1
+    },
+    "数据架构": {
+      "notes": [
+        "数据规模驱动的后端技术能力分层.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "性能优化",
+        "后端开发"
+      ],
+      "note_count": 1
+    },
+    "面试": {
+      "notes": [
+        "数据规模驱动的后端技术能力分层.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "性能优化",
+        "后端开发"
+      ],
+      "note_count": 1
+    },
+    "云开发": {
+      "notes": [
+        "用 GitHub Codespaces 零成本获取云端编程环境.md"
+      ],
+      "subtopics": [
+        "GitHub",
+        "学习路线",
+        "命令行工具"
+      ],
+      "note_count": 1
+    },
+    "AI周期": {
+      "notes": [
+        "甲骨文裁员与AI创新周期的物理墙临界点.md"
+      ],
+      "subtopics": [
+        "甲骨文",
+        "创新周期",
+        "泡沫经济"
+      ],
+      "note_count": 1
+    },
+    "甲骨文": {
+      "notes": [
+        "甲骨文裁员与AI创新周期的物理墙临界点.md"
+      ],
+      "subtopics": [
+        "AI周期",
+        "创新周期",
+        "泡沫经济"
+      ],
+      "note_count": 1
+    },
+    "创新周期": {
+      "notes": [
+        "甲骨文裁员与AI创新周期的物理墙临界点.md"
+      ],
+      "subtopics": [
+        "AI周期",
+        "甲骨文",
+        "泡沫经济"
+      ],
+      "note_count": 1
+    },
+    "泡沫经济": {
+      "notes": [
+        "甲骨文裁员与AI创新周期的物理墙临界点.md"
+      ],
+      "subtopics": [
+        "AI周期",
+        "甲骨文",
+        "创新周期"
+      ],
+      "note_count": 1
+    },
+    "资本支出": {
+      "notes": [
+        "甲骨文裁员与AI创新周期的物理墙临界点.md"
+      ],
+      "subtopics": [
+        "AI周期",
+        "甲骨文",
+        "创新周期"
+      ],
+      "note_count": 1
+    },
+    "算力供需": {
+      "notes": [
+        "甲骨文裁员与AI创新周期的物理墙临界点.md"
+      ],
+      "subtopics": [
+        "AI周期",
+        "甲骨文",
+        "创新周期"
+      ],
+      "note_count": 1
+    },
+    "百度网盘": {
+      "notes": [
+        "百度网盘兼容模式偷偷限制CPU频率.md"
+      ],
+      "subtopics": [
+        "CPU睿频",
+        "Windows电源管理",
+        "软件越权"
+      ],
+      "note_count": 1
+    },
+    "CPU睿频": {
+      "notes": [
+        "百度网盘兼容模式偷偷限制CPU频率.md"
+      ],
+      "subtopics": [
+        "百度网盘",
+        "Windows电源管理",
+        "软件越权"
+      ],
+      "note_count": 1
+    },
+    "Windows电源管理": {
+      "notes": [
+        "百度网盘兼容模式偷偷限制CPU频率.md"
+      ],
+      "subtopics": [
+        "百度网盘",
+        "CPU睿频",
+        "软件越权"
+      ],
+      "note_count": 1
+    },
+    "软件越权": {
+      "notes": [
+        "百度网盘兼容模式偷偷限制CPU频率.md"
+      ],
+      "subtopics": [
+        "百度网盘",
+        "CPU睿频",
+        "Windows电源管理"
+      ],
+      "note_count": 1
+    },
+    "故障排查": {
+      "notes": [
+        "百度网盘兼容模式偷偷限制CPU频率.md"
+      ],
+      "subtopics": [
+        "百度网盘",
+        "CPU睿频",
+        "Windows电源管理"
+      ],
+      "note_count": 1
+    },
+    "系统兼容性": {
+      "notes": [
+        "百度网盘兼容模式偷偷限制CPU频率.md"
+      ],
+      "subtopics": [
+        "百度网盘",
+        "CPU睿频",
+        "Windows电源管理"
+      ],
+      "note_count": 1
+    },
+    "米哈游": {
+      "notes": [
+        "米哈游算法笔试与面试难度解析.md"
+      ],
+      "subtopics": [
+        "算法笔试",
+        "求职面试",
+        "后端开发"
+      ],
+      "note_count": 1
+    },
+    "算法笔试": {
+      "notes": [
+        "米哈游算法笔试与面试难度解析.md"
+      ],
+      "subtopics": [
+        "米哈游",
+        "求职面试",
+        "后端开发"
+      ],
+      "note_count": 1
+    },
+    "求职面试": {
+      "notes": [
+        "米哈游算法笔试与面试难度解析.md"
+      ],
+      "subtopics": [
+        "米哈游",
+        "算法笔试",
+        "后端开发"
+      ],
+      "note_count": 1
+    },
+    "秋招": {
+      "notes": [
+        "米哈游算法笔试与面试难度解析.md"
+      ],
+      "subtopics": [
+        "米哈游",
+        "算法笔试",
+        "求职面试"
+      ],
+      "note_count": 1
+    },
+    "并发编程": {
+      "notes": [
+        "线程与进程的区别：火车与车厢的比喻.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "操作系统",
+        "进程管理"
+      ],
+      "note_count": 1
+    },
+    "游戏安全": {
+      "notes": [
+        "网络游戏外挂的本质：服务器验证的攻防博弈.md"
+      ],
+      "subtopics": [
+        "反作弊",
+        "客户端服务器架构",
+        "网络安全"
+      ],
+      "note_count": 1
+    },
+    "反作弊": {
+      "notes": [
+        "网络游戏外挂的本质：服务器验证的攻防博弈.md"
+      ],
+      "subtopics": [
+        "游戏安全",
+        "客户端服务器架构",
+        "网络安全"
+      ],
+      "note_count": 1
+    },
+    "客户端服务器架构": {
+      "notes": [
+        "网络游戏外挂的本质：服务器验证的攻防博弈.md"
+      ],
+      "subtopics": [
+        "游戏安全",
+        "反作弊",
+        "网络安全"
+      ],
+      "note_count": 1
+    },
+    "自学编程": {
+      "notes": [
+        "自学编程的失败与重建：从985科班到B站网课的程序员之路.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "学习路线",
+        "B站学习"
+      ],
+      "note_count": 1
+    },
+    "B站学习": {
+      "notes": [
+        "自学编程的失败与重建：从985科班到B站网课的程序员之路.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "学习路线",
+        "自学编程"
+      ],
+      "note_count": 1
+    },
+    "Java全栈": {
+      "notes": [
+        "自学编程的失败与重建：从985科班到B站网课的程序员之路.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "学习路线",
+        "自学编程"
+      ],
+      "note_count": 1
+    },
+    "编程笔记": {
+      "notes": [
+        "自学编程的失败与重建：从985科班到B站网课的程序员之路.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "学习路线",
+        "自学编程"
+      ],
+      "note_count": 1
+    },
+    "计算机图形学": {
+      "notes": [
+        "计算机图形学入门书单与代码驱动学习法.md"
+      ],
+      "subtopics": [
+        "光线追踪",
+        "PBRT",
+        "代码驱动学习"
+      ],
+      "note_count": 1
+    },
+    "光线追踪": {
+      "notes": [
+        "计算机图形学入门书单与代码驱动学习法.md"
+      ],
+      "subtopics": [
+        "计算机图形学",
+        "PBRT",
+        "代码驱动学习"
+      ],
+      "note_count": 1
+    },
+    "PBRT": {
+      "notes": [
+        "计算机图形学入门书单与代码驱动学习法.md"
+      ],
+      "subtopics": [
+        "计算机图形学",
+        "光线追踪",
+        "代码驱动学习"
+      ],
+      "note_count": 1
+    },
+    "代码驱动学习": {
+      "notes": [
+        "计算机图形学入门书单与代码驱动学习法.md"
+      ],
+      "subtopics": [
+        "计算机图形学",
+        "光线追踪",
+        "PBRT"
+      ],
+      "note_count": 1
+    },
+    "图形学入门": {
+      "notes": [
+        "计算机图形学入门书单与代码驱动学习法.md"
+      ],
+      "subtopics": [
+        "计算机图形学",
+        "光线追踪",
+        "PBRT"
+      ],
+      "note_count": 1
+    },
+    "书籍推荐": {
+      "notes": [
+        "计算机图形学入门书单与代码驱动学习法.md"
+      ],
+      "subtopics": [
+        "计算机图形学",
+        "光线追踪",
+        "PBRT"
+      ],
+      "note_count": 1
+    },
+    "计算机自学": {
+      "notes": [
+        "计算机科学自学路线与经典书籍.md"
+      ],
+      "subtopics": [
+        "学习路线",
+        "计算机基础",
+        "操作系统"
+      ],
+      "note_count": 1
+    },
+    "代码美学": {
+      "notes": [
+        "让人惊叹的优雅代码：算法、数据结构与代码高尔夫.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "计算机基础",
+        "算法"
+      ],
+      "note_count": 1
+    },
+    "代码高尔夫": {
+      "notes": [
+        "让人惊叹的优雅代码：算法、数据结构与代码高尔夫.md"
+      ],
+      "subtopics": [
+        "性能优化",
+        "计算机基础",
+        "算法"
+      ],
+      "note_count": 1
+    },
+    "设计模式": {
+      "notes": [
+        "设计模式的语言依赖性：GoF 模式何时真正有用.md"
+      ],
+      "subtopics": [
+        "面向对象编程",
+        "计算机基础",
+        "GoF"
+      ],
+      "note_count": 1
+    },
+    "面向对象编程": {
+      "notes": [
+        "设计模式的语言依赖性：GoF 模式何时真正有用.md"
+      ],
+      "subtopics": [
+        "设计模式",
+        "计算机基础",
+        "GoF"
+      ],
+      "note_count": 1
+    },
+    "GoF": {
+      "notes": [
+        "设计模式的语言依赖性：GoF 模式何时真正有用.md"
+      ],
+      "subtopics": [
+        "设计模式",
+        "面向对象编程",
+        "计算机基础"
+      ],
+      "note_count": 1
+    },
+    "补码": {
+      "notes": [
+        "负数在计算机中的二进制表示 从 0 减 X 说起.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "二进制",
+        "模运算"
+      ],
+      "note_count": 1
+    },
+    "二进制": {
+      "notes": [
+        "负数在计算机中的二进制表示 从 0 减 X 说起.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "补码",
+        "模运算"
+      ],
+      "note_count": 1
+    },
+    "模运算": {
+      "notes": [
+        "负数在计算机中的二进制表示 从 0 减 X 说起.md"
+      ],
+      "subtopics": [
+        "计算机基础",
+        "补码",
+        "二进制"
+      ],
+      "note_count": 1
+    },
+    "缓存局部性": {
+      "notes": [
+        "链表已死？现代体系下的链表兴衰.md"
+      ],
+      "subtopics": [
+        "数据结构",
+        "计算机体系结构",
+        "性能优化"
+      ],
+      "note_count": 1
+    },
+    "数据取向设计": {
+      "notes": [
+        "链表已死？现代体系下的链表兴衰.md"
+      ],
+      "subtopics": [
+        "数据结构",
+        "计算机体系结构",
+        "缓存局部性"
+      ],
+      "note_count": 1
+    }
+  },
+  "last_rebuilt": "2026-07-12T23:20:48"
+}
