@@ -124,6 +124,19 @@
       ],
       "note_count": 3
     },
+    "知乎": {
+      "notes": [
+        "四平台关键词屏蔽器 Userscript 解析.md",
+        "知乎盐粒进阶策略：挑肥拣瘦与心态管理.md",
+        "财报分析框架蒸馏为AI Skill.md"
+      ],
+      "subtopics": [
+        "Userscript",
+        "信息过滤",
+        "工具脚本"
+      ],
+      "note_count": 3
+    },
     "软件工程": {
       "notes": [
         "AI 不是银弹：Brooks 框架下的本质与偶然复杂性.md",
@@ -133,6 +146,30 @@
         "AI编程",
         "人月神话",
         "复杂度"
+      ],
+      "note_count": 2
+    },
+    "AI": {
+      "notes": [
+        "Android Skills 谷歌官方 AI Agent 技能库.md",
+        "财报分析框架蒸馏为AI Skill.md"
+      ],
+      "subtopics": [
+        "提示工程",
+        "Agent",
+        "Android开发"
+      ],
+      "note_count": 2
+    },
+    "提示工程": {
+      "notes": [
+        "Android Skills 谷歌官方 AI Agent 技能库.md",
+        "财报分析框架蒸馏为AI Skill.md"
+      ],
+      "subtopics": [
+        "AI",
+        "Agent",
+        "Android开发"
       ],
       "note_count": 2
     },
@@ -369,6 +406,39 @@
         "软件工程",
         "AI编程",
         "人月神话"
+      ],
+      "note_count": 1
+    },
+    "Agent": {
+      "notes": [
+        "Android Skills 谷歌官方 AI Agent 技能库.md"
+      ],
+      "subtopics": [
+        "AI",
+        "Android开发",
+        "技能系统"
+      ],
+      "note_count": 1
+    },
+    "Android开发": {
+      "notes": [
+        "Android Skills 谷歌官方 AI Agent 技能库.md"
+      ],
+      "subtopics": [
+        "AI",
+        "Agent",
+        "技能系统"
+      ],
+      "note_count": 1
+    },
+    "技能系统": {
+      "notes": [
+        "Android Skills 谷歌官方 AI Agent 技能库.md"
+      ],
+      "subtopics": [
+        "AI",
+        "Agent",
+        "Android开发"
       ],
       "note_count": 1
     },
@@ -1109,17 +1179,6 @@
       ],
       "note_count": 1
     },
-    "知乎": {
-      "notes": [
-        "四平台关键词屏蔽器 Userscript 解析.md"
-      ],
-      "subtopics": [
-        "Userscript",
-        "信息过滤",
-        "工具脚本"
-      ],
-      "note_count": 1
-    },
     "技术博客": {
       "notes": [
         "国内技术博客生态与 SEO 可发现性问题.md"
@@ -1538,6 +1597,50 @@
       ],
       "note_count": 1
     },
+    "内容创作": {
+      "notes": [
+        "知乎盐粒进阶策略：挑肥拣瘦与心态管理.md"
+      ],
+      "subtopics": [
+        "知乎",
+        "自媒体",
+        "副业"
+      ],
+      "note_count": 1
+    },
+    "自媒体": {
+      "notes": [
+        "知乎盐粒进阶策略：挑肥拣瘦与心态管理.md"
+      ],
+      "subtopics": [
+        "知乎",
+        "内容创作",
+        "副业"
+      ],
+      "note_count": 1
+    },
+    "副业": {
+      "notes": [
+        "知乎盐粒进阶策略：挑肥拣瘦与心态管理.md"
+      ],
+      "subtopics": [
+        "知乎",
+        "内容创作",
+        "自媒体"
+      ],
+      "note_count": 1
+    },
+    "算法分发": {
+      "notes": [
+        "知乎盐粒进阶策略：挑肥拣瘦与心态管理.md"
+      ],
+      "subtopics": [
+        "知乎",
+        "内容创作",
+        "自媒体"
+      ],
+      "note_count": 1
+    },
     "米哈游": {
       "notes": [
         "米哈游算法笔试与面试难度解析.md"
@@ -1835,6 +1938,39 @@
       ],
       "note_count": 1
     },
+    "财报分析": {
+      "notes": [
+        "财报分析框架蒸馏为AI Skill.md"
+      ],
+      "subtopics": [
+        "知识蒸馏",
+        "AI",
+        "提示工程"
+      ],
+      "note_count": 1
+    },
+    "知识蒸馏": {
+      "notes": [
+        "财报分析框架蒸馏为AI Skill.md"
+      ],
+      "subtopics": [
+        "财报分析",
+        "AI",
+        "提示工程"
+      ],
+      "note_count": 1
+    },
+    "方法论": {
+      "notes": [
+        "财报分析框架蒸馏为AI Skill.md"
+      ],
+      "subtopics": [
+        "财报分析",
+        "知识蒸馏",
+        "AI"
+      ],
+      "note_count": 1
+    },
     "缓存局部性": {
       "notes": [
         "链表已死？现代体系下的链表兴衰.md"
@@ -1858,5 +1994,5 @@
       "note_count": 1
     }
   },
-  "last_rebuilt": "2026-07-12T23:20:48"
+  "last_rebuilt": "2026-10-31T14:55:30"
 }
